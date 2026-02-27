@@ -22,7 +22,7 @@ The source code also provides enhanced Dual-Stream variants integrated with stat
 - **CoordAtt (Coordinate Attention)**: Embeds positional information into channel attention, enabling the model to capture long-range dependencies and maintain precise spatial localization—critical for dense nuclei segmentation.
 
 **Usage:**
-These modules are encapsulated within `models/dual_stream_unet.py`. You can easily toggle these components in the model configuration to compare their performance on your specific dataset.
+These modules are encapsulated within `models/models.py`. You can easily toggle these components in the model configuration to compare their performance on your specific dataset.
 
 ## Dataset: MoNuSeg 2018
 The experiments were conducted on the MoNuSeg-2018 (Multi-Organ Nuclei Segmentation) dataset.
